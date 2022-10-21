@@ -1,0 +1,68 @@
+import { Component, OnInit } from '@angular/core';
+import { EstabelecimentoService } from 'src/app/services/estabelecimento.service';
+import { ActivatedRoute, Router } from '@angular/router';
+import { Estabelecimento } from 'src/app/models/estabelecimento.model';
+
+@Component({
+  selector: 'app-details-estabelecimento',
+  templateUrl: './details-estabelecimento.component.html',
+  styleUrls: ['./details-estabelecimento.component.css']
+})
+export class DetailsEstabelecimentoComponent implements OnInit {
+
+  estabelecimento: Estabelecimento = {
+    nome: '',
+    placeId: ''
+  };
+  message = '';
+  debug = true;
+
+
+  constructor(
+    private estabelecimentoService: EstabelecimentoService,
+    private route: ActivatedRoute,
+    private router: Router) { }
+
+  ngOnInit(): void {
+    this.message = '';
+    this.getTutorial(this.route.snapshot.params.id);
+  }
+
+  getEstabelecimento(id: string): void {
+    this.estabelecimentoService.get(id)
+      .subscribe(
+        data => {
+          this.estabelecimento = data;
+          if (this.debug) console.log(data);
+        },
+        error => {
+          console.log(error);
+        });
+  }
+
+  updateEstabelecimento(): void {
+    this.message = '';
+
+    this.estabelecimentoService.update(this.estabelecimento.id, this.estabelecimento)
+      .subscribe(
+        response => {
+          if (this.debug) console.log(response);
+          this.message = response.message ? response.message : 'A entidade EstabelecimentoEditor foi atualizada com sucesso!';
+        },
+        error => {
+          console.log(error);
+        });
+  }
+
+  deleteEstabelecimento(): void {
+    this.estabelecimentoService.delete(this.estabelecimento.id)
+      .subscribe(
+        response => {
+          if (this.debug) console.log(response);
+          this.router.navigate(['/estabelecimentos']);
+        },
+        error => {
+          console.log(error);
+        });
+  }
+}

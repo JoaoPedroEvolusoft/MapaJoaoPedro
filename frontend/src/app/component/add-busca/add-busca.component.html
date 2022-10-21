@@ -1,0 +1,103 @@
+<div>
+  <div class="submit-form">
+    <div *ngIf="!submitted">
+      <mat-form-field>
+        <input
+        matInput
+        placeholder="Nome"
+          type="text"
+          id="nome"
+          required
+          [(ngModel)]="busca.nome"
+          name="nome"
+        />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input
+        matInput
+        placeholder="Municipio"
+          type="text"
+          id=""
+          required
+          [(ngModel)]="busca."
+          name=""
+        />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input
+        matInput
+        placeholder="Progresso da busca por municipio"
+          type="text"
+          id="progressoDaBuscaPorMunicipio"
+          required
+          [(ngModel)]="busca.progressoDaBuscaPorMunicipio"
+          name="progressoDaBuscaPorMunicipio"
+        />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input
+        matInput
+        placeholder="Progresso da busca por categoria"
+          type="text"
+          id="progressoDaBuscaPorCategoria"
+          required
+          [(ngModel)]="busca.progressoDaBuscaPorCategoria"
+          name="progressoDaBuscaPorCategoria"
+        />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input
+        matInput
+        placeholder="Data de inicio da busca"
+          type="text"
+          id="dataDeInicioDaBusca"
+          required
+          [(ngModel)]="busca.dataDeInicioDaBusca"
+          name="dataDeInicioDaBusca"
+        />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input
+        matInput
+        placeholder="Data de fim da busca"
+          type="text"
+          id=""
+          required
+          [(ngModel)]="busca."
+          name=""
+        />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input
+        matInput
+        placeholder="Ultima atualização"
+          type="text"
+          id="ultimaAtualizacao"
+          required
+          [(ngModel)]="busca.ultimaAtualizacao"
+          name="ultimaAtualizacao"
+        />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input
+        matInput
+        placeholder="Estado"
+          type="text"
+          id=""
+          required
+          [(ngModel)]="busca."
+          name=""
+        />
+      </mat-form-field>
+
+      <button (click)="saveBusca()" class="btn btn-success">Submit</button>
+    </div>
+  </div>
+</div>

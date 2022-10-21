@@ -3114,7 +3114,7 @@
 <node CREATED="1666227862199" ID="ID_859832189" MODIFIED="1666306149975" TEXT="mi g app angular listComponentHTML listName={{ @name }}List &gt;  frontend/src/app/component/list-{{ mi:first-lower(@name) }}/list-{{ mi:first-lower(@name) }}.component.html ">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1666229135581" ID="ID_529438419" MODIFIED="1666306146535" TEXT="mi g app angular listComponentTS listName={{ @name }}List &gt;  frontend/src/app/component/list-{{ mi:first-lower(@name) }}/list-{{ mi:first-lower(@name) }}.component.html ">
+<node CREATED="1666229135581" ID="ID_529438419" MODIFIED="1666354112266" TEXT="mi g app angular listComponentTS listName={{ @name }}List &gt;  frontend/src/app/component/list-{{ mi:first-lower(@name) }}/list-{{ mi:first-lower(@name) }}.component.ts">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -3124,7 +3124,7 @@
 <cloud/>
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1666308192096" ID="ID_1823166668" MODIFIED="1666308206014" TEXT="mi g app angular detailsComponentTS editorName={{ @name }}Editor &gt;  frontend/src/app/component/details-{{ mi:first-lower(@name) }}/details-{{ mi:first-lower(@name) }}.component.html">
+<node CREATED="1666308192096" ID="ID_1823166668" MODIFIED="1666354129341" TEXT="mi g app angular detailsComponentTS editorName={{ @name }}Editor &gt;  frontend/src/app/component/details-{{ mi:first-lower(@name) }}/details-{{ mi:first-lower(@name) }}.component.ts">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
