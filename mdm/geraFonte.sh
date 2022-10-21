@@ -7,28 +7,28 @@ mkdir backend/app
 mkdir backend/app/controllers
 mkdir frontend/src/app/models
 mkdir frontend/src/app/services
-mkdir frontend/src/app/component
-mkdir frontend/src/app/component/add-coordenada
-mkdir frontend/src/app/component/list-coordenada
-mkdir frontend/src/app/component/details-coordenada
-mkdir frontend/src/app/component/add-categoria
-mkdir frontend/src/app/component/list-categoria
-mkdir frontend/src/app/component/details-categoria
-mkdir frontend/src/app/component/add-endereço
-mkdir frontend/src/app/component/list-endereço
-mkdir frontend/src/app/component/details-endereço
-mkdir frontend/src/app/component/add-estabelecimento
-mkdir frontend/src/app/component/list-estabelecimento
-mkdir frontend/src/app/component/details-estabelecimento
-mkdir frontend/src/app/component/add-estado
-mkdir frontend/src/app/component/list-estado
-mkdir frontend/src/app/component/details-estado
-mkdir frontend/src/app/component/add-municipio
-mkdir frontend/src/app/component/list-municipio
-mkdir frontend/src/app/component/details-municipio
-mkdir frontend/src/app/component/add-busca
-mkdir frontend/src/app/component/list-busca
-mkdir frontend/src/app/component/details-busca
+mkdir frontend/src/app/components
+mkdir frontend/src/app/components/add-coordenada
+mkdir frontend/src/app/components/list-coordenada
+mkdir frontend/src/app/components/details-coordenada
+mkdir frontend/src/app/components/add-categoria
+mkdir frontend/src/app/components/list-categoria
+mkdir frontend/src/app/components/details-categoria
+mkdir frontend/src/app/components/add-endereço
+mkdir frontend/src/app/components/list-endereço
+mkdir frontend/src/app/components/details-endereço
+mkdir frontend/src/app/components/add-estabelecimento
+mkdir frontend/src/app/components/list-estabelecimento
+mkdir frontend/src/app/components/details-estabelecimento
+mkdir frontend/src/app/components/add-estado
+mkdir frontend/src/app/components/list-estado
+mkdir frontend/src/app/components/details-estado
+mkdir frontend/src/app/components/add-municipio
+mkdir frontend/src/app/components/list-municipio
+mkdir frontend/src/app/components/details-municipio
+mkdir frontend/src/app/components/add-busca
+mkdir frontend/src/app/components/list-busca
+mkdir frontend/src/app/components/details-busca
 cd backend/models
 mi g app mean index > index.js
 cd ..
@@ -68,45 +68,45 @@ mi g app mean routes entityName=Estabelecimento > backend/routes/estabelecimento
 mi g app mean routes entityName=Estado > backend/routes/estado.routes.js
 mi g app mean routes entityName=Municipio > backend/routes/municipio.routes.js
 mi g app mean routes entityName=Busca > backend/routes/busca.routes.js
-mi g app angular addComponentHTML editorName=CoordenadaEditor >  frontend/src/app/component/add-coordenada/add-coordenada.component.html
-mi g app angular addComponentTS editorName=CoordenadaEditor >  frontend/src/app/component/add-coordenada/add-coordenada.component.ts
-mi g app angular listComponentHTML listName=CoordenadaList >  frontend/src/app/component/list-coordenada/list-coordenada.component.html 
-mi g app angular listComponentTS listName=CoordenadaList >  frontend/src/app/component/list-coordenada/list-coordenada.component.html 
-mi g app angular detailsComponentHTML editorName=CoordenadaEditor >  frontend/src/app/component/details-coordenada/details-coordenada.component.html
-mi g app angular detailsComponentTS editorName=CoordenadaEditor >  frontend/src/app/component/details-coordenada/details-coordenada.component.html
-mi g app angular addComponentHTML editorName=CategoriaEditor >  frontend/src/app/component/add-categoria/add-categoria.component.html
-mi g app angular addComponentTS editorName=CategoriaEditor >  frontend/src/app/component/add-categoria/add-categoria.component.ts
-mi g app angular listComponentHTML listName=CategoriaList >  frontend/src/app/component/list-categoria/list-categoria.component.html 
-mi g app angular listComponentTS listName=CategoriaList >  frontend/src/app/component/list-categoria/list-categoria.component.html 
-mi g app angular detailsComponentHTML editorName=CategoriaEditor >  frontend/src/app/component/details-categoria/details-categoria.component.html
-mi g app angular detailsComponentTS editorName=CategoriaEditor >  frontend/src/app/component/details-categoria/details-categoria.component.html
-mi g app angular addComponentHTML editorName=EndereçoEditor >  frontend/src/app/component/add-endereço/add-endereço.component.html
-mi g app angular addComponentTS editorName=EndereçoEditor >  frontend/src/app/component/add-endereço/add-endereço.component.ts
-mi g app angular listComponentHTML listName=EndereçoList >  frontend/src/app/component/list-endereço/list-endereço.component.html 
-mi g app angular listComponentTS listName=EndereçoList >  frontend/src/app/component/list-endereço/list-endereço.component.html 
-mi g app angular detailsComponentHTML editorName=EndereçoEditor >  frontend/src/app/component/details-endereço/details-endereço.component.html
-mi g app angular detailsComponentTS editorName=EndereçoEditor >  frontend/src/app/component/details-endereço/details-endereço.component.html
-mi g app angular addComponentHTML editorName=EstabelecimentoEditor >  frontend/src/app/component/add-estabelecimento/add-estabelecimento.component.html
-mi g app angular addComponentTS editorName=EstabelecimentoEditor >  frontend/src/app/component/add-estabelecimento/add-estabelecimento.component.ts
-mi g app angular listComponentHTML listName=EstabelecimentoList >  frontend/src/app/component/list-estabelecimento/list-estabelecimento.component.html 
-mi g app angular listComponentTS listName=EstabelecimentoList >  frontend/src/app/component/list-estabelecimento/list-estabelecimento.component.html 
-mi g app angular detailsComponentHTML editorName=EstabelecimentoEditor >  frontend/src/app/component/details-estabelecimento/details-estabelecimento.component.html
-mi g app angular detailsComponentTS editorName=EstabelecimentoEditor >  frontend/src/app/component/details-estabelecimento/details-estabelecimento.component.html
-mi g app angular addComponentHTML editorName=EstadoEditor >  frontend/src/app/component/add-estado/add-estado.component.html
-mi g app angular addComponentTS editorName=EstadoEditor >  frontend/src/app/component/add-estado/add-estado.component.ts
-mi g app angular listComponentHTML listName=EstadoList >  frontend/src/app/component/list-estado/list-estado.component.html 
-mi g app angular listComponentTS listName=EstadoList >  frontend/src/app/component/list-estado/list-estado.component.html 
-mi g app angular detailsComponentHTML editorName=EstadoEditor >  frontend/src/app/component/details-estado/details-estado.component.html
-mi g app angular detailsComponentTS editorName=EstadoEditor >  frontend/src/app/component/details-estado/details-estado.component.html
-mi g app angular addComponentHTML editorName=MunicipioEditor >  frontend/src/app/component/add-municipio/add-municipio.component.html
-mi g app angular addComponentTS editorName=MunicipioEditor >  frontend/src/app/component/add-municipio/add-municipio.component.ts
-mi g app angular listComponentHTML listName=MunicipioList >  frontend/src/app/component/list-municipio/list-municipio.component.html 
-mi g app angular listComponentTS listName=MunicipioList >  frontend/src/app/component/list-municipio/list-municipio.component.html 
-mi g app angular detailsComponentHTML editorName=MunicipioEditor >  frontend/src/app/component/details-municipio/details-municipio.component.html
-mi g app angular detailsComponentTS editorName=MunicipioEditor >  frontend/src/app/component/details-municipio/details-municipio.component.html
-mi g app angular addComponentHTML editorName=BuscaEditor >  frontend/src/app/component/add-busca/add-busca.component.html
-mi g app angular addComponentTS editorName=BuscaEditor >  frontend/src/app/component/add-busca/add-busca.component.ts
-mi g app angular listComponentHTML listName=BuscaList >  frontend/src/app/component/list-busca/list-busca.component.html 
-mi g app angular listComponentTS listName=BuscaList >  frontend/src/app/component/list-busca/list-busca.component.html 
-mi g app angular detailsComponentHTML editorName=BuscaEditor >  frontend/src/app/component/details-busca/details-busca.component.html
-mi g app angular detailsComponentTS editorName=BuscaEditor >  frontend/src/app/component/details-busca/details-busca.component.html
+mi g app angular addComponentHTML editorName=CoordenadaEditor >  frontend/src/app/components/add-coordenada/add-coordenada.component.html
+mi g app angular addComponentTS editorName=CoordenadaEditor >  frontend/src/app/components/add-coordenada/add-coordenada.component.ts
+mi g app angular listComponentHTML listName=CoordenadaList >  frontend/src/app/components/list-coordenada/list-coordenada.component.html 
+mi g app angular listComponentTS listName=CoordenadaList >  frontend/src/app/components/list-coordenada/list-coordenada.component.ts
+mi g app angular detailsComponentHTML editorName=CoordenadaEditor >  frontend/src/app/components/details-coordenada/details-coordenada.component.html
+mi g app angular detailsComponentTS editorName=CoordenadaEditor >  frontend/src/app/components/details-coordenada/details-coordenada.component.ts
+mi g app angular addComponentHTML editorName=CategoriaEditor >  frontend/src/app/components/add-categoria/add-categoria.component.html
+mi g app angular addComponentTS editorName=CategoriaEditor >  frontend/src/app/components/add-categoria/add-categoria.component.ts
+mi g app angular listComponentHTML listName=CategoriaList >  frontend/src/app/components/list-categoria/list-categoria.component.html 
+mi g app angular listComponentTS listName=CategoriaList >  frontend/src/app/components/list-categoria/list-categoria.component.ts
+mi g app angular detailsComponentHTML editorName=CategoriaEditor >  frontend/src/app/components/details-categoria/details-categoria.component.html
+mi g app angular detailsComponentTS editorName=CategoriaEditor >  frontend/src/app/components/details-categoria/details-categoria.component.ts
+mi g app angular addComponentHTML editorName=EndereçoEditor >  frontend/src/app/components/add-endereço/add-endereço.component.html
+mi g app angular addComponentTS editorName=EndereçoEditor >  frontend/src/app/components/add-endereço/add-endereço.component.ts
+mi g app angular listComponentHTML listName=EndereçoList >  frontend/src/app/components/list-endereço/list-endereço.component.html 
+mi g app angular listComponentTS listName=EndereçoList >  frontend/src/app/components/list-endereço/list-endereço.component.ts
+mi g app angular detailsComponentHTML editorName=EndereçoEditor >  frontend/src/app/components/details-endereço/details-endereço.component.html
+mi g app angular detailsComponentTS editorName=EndereçoEditor >  frontend/src/app/components/details-endereço/details-endereço.component.ts
+mi g app angular addComponentHTML editorName=EstabelecimentoEditor >  frontend/src/app/components/add-estabelecimento/add-estabelecimento.component.html
+mi g app angular addComponentTS editorName=EstabelecimentoEditor >  frontend/src/app/components/add-estabelecimento/add-estabelecimento.component.ts
+mi g app angular listComponentHTML listName=EstabelecimentoList >  frontend/src/app/components/list-estabelecimento/list-estabelecimento.component.html 
+mi g app angular listComponentTS listName=EstabelecimentoList >  frontend/src/app/components/list-estabelecimento/list-estabelecimento.component.ts
+mi g app angular detailsComponentHTML editorName=EstabelecimentoEditor >  frontend/src/app/components/details-estabelecimento/details-estabelecimento.component.html
+mi g app angular detailsComponentTS editorName=EstabelecimentoEditor >  frontend/src/app/components/details-estabelecimento/details-estabelecimento.component.ts
+mi g app angular addComponentHTML editorName=EstadoEditor >  frontend/src/app/components/add-estado/add-estado.component.html
+mi g app angular addComponentTS editorName=EstadoEditor >  frontend/src/app/components/add-estado/add-estado.component.ts
+mi g app angular listComponentHTML listName=EstadoList >  frontend/src/app/components/list-estado/list-estado.component.html 
+mi g app angular listComponentTS listName=EstadoList >  frontend/src/app/components/list-estado/list-estado.component.ts
+mi g app angular detailsComponentHTML editorName=EstadoEditor >  frontend/src/app/components/details-estado/details-estado.component.html
+mi g app angular detailsComponentTS editorName=EstadoEditor >  frontend/src/app/components/details-estado/details-estado.component.ts
+mi g app angular addComponentHTML editorName=MunicipioEditor >  frontend/src/app/components/add-municipio/add-municipio.component.html
+mi g app angular addComponentTS editorName=MunicipioEditor >  frontend/src/app/components/add-municipio/add-municipio.component.ts
+mi g app angular listComponentHTML listName=MunicipioList >  frontend/src/app/components/list-municipio/list-municipio.component.html 
+mi g app angular listComponentTS listName=MunicipioList >  frontend/src/app/components/list-municipio/list-municipio.component.ts
+mi g app angular detailsComponentHTML editorName=MunicipioEditor >  frontend/src/app/components/details-municipio/details-municipio.component.html
+mi g app angular detailsComponentTS editorName=MunicipioEditor >  frontend/src/app/components/details-municipio/details-municipio.component.ts
+mi g app angular addComponentHTML editorName=BuscaEditor >  frontend/src/app/components/add-busca/add-busca.component.html
+mi g app angular addComponentTS editorName=BuscaEditor >  frontend/src/app/components/add-busca/add-busca.component.ts
+mi g app angular listComponentHTML listName=BuscaList >  frontend/src/app/components/list-busca/list-busca.component.html 
+mi g app angular listComponentTS listName=BuscaList >  frontend/src/app/components/list-busca/list-busca.component.ts
+mi g app angular detailsComponentHTML editorName=BuscaEditor >  frontend/src/app/components/details-busca/details-busca.component.html
+mi g app angular detailsComponentTS editorName=BuscaEditor >  frontend/src/app/components/details-busca/details-busca.component.ts

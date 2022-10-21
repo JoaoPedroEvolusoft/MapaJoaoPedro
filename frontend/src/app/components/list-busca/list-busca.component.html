@@ -1,0 +1,60 @@
+<div class="list row">
+    <div class="col-md-6">
+        <h4>Lista de Buscas</h4>
+        <ul class="list-group">
+        <li
+            class="list-group-item"
+            *ngFor="let  of buscaCollection; let i = index"
+            [class.active]="i == currentIndex"
+            (click)="setActive(, i)"
+        >
+            {{ .nome }} {{ .municipio }} {{ .categoria }} {{ .progressoDaBuscaPorMunicipio }} {{ .progressoDaBuscaPorCategoria }} {{ .dataDeInicioDaBusca }} {{ .dataDeFimDaBusca }} {{ .ultimaAtualizacao }} {{ .estado }} 
+        </li>
+        </ul>
+
+        <button class="m-3 btn btn-sm btn-danger" (click)="removeAll()">
+        Remover Tudo
+        </button>
+    </div>
+    <div class="col-md-6">
+        <div *ngIf="current.id">
+        <h4>Busca</h4>
+        <div>
+            <label><strong>Nome:</strong></label> {{ current.nome }}
+        </div>
+        <div>
+            <label><strong>Municipios:</strong></label> {{ current.municipios }}
+        </div>
+        <div>
+            <label><strong>Categoria:</strong></label> {{ current.categoria }}
+        </div>
+        <div>
+            <label><strong>ProgressoDaBuscaPorMunicipio:</strong></label> {{ current.progressoDaBuscaPorMunicipio }}
+        </div>
+        <div>
+            <label><strong>ProgressoDaBuscaPorCategoria:</strong></label> {{ current.progressoDaBuscaPorCategoria }}
+        </div>
+        <div>
+            <label><strong>DataDeInicioDaBusca:</strong></label> {{ current.dataDeInicioDaBusca }}
+        </div>
+        <div>
+            <label><strong>DataFimDaBusca:</strong></label> {{ current.dataFimDaBusca }}
+        </div>
+        <div>
+            <label><strong>UltimaAtualizacao:</strong></label> {{ current.ultimaAtualizacao }}
+        </div>
+        <div>
+            <label><strong>Estado:</strong></label> {{ current.Estado }}
+        </div>
+
+        <a class="badge badge-warning" routerLink="/buscas/{{ current.id }}">
+            Editar
+        </a>
+        </div>
+
+        <div *ngIf="!current">
+        <br />
+        <p>Por favor selecione uma linha da lista de Busca...</p>
+        </div>
+    </div>
+</div>

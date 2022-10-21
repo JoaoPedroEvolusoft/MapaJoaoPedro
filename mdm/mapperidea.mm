@@ -3077,19 +3077,19 @@
 <node CREATED="1665525167808" ID="ID_1789573247" MODIFIED="1665525319082" TEXT="mkdir frontend/src/app/services">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1666227689691" ID="ID_1440799208" MODIFIED="1666227744144" TEXT="mkdir frontend/src/app/component">
+<node CREATED="1666227689691" ID="ID_1440799208" MODIFIED="1666385340232" TEXT="mkdir frontend/src/app/components">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 <node CREATED="1666306903480" ID="ID_409624164" MODIFIED="1666307114345" TEXT="geraDiretorios">
 <icon BUILTIN="element"/>
-<node CREATED="1666306977238" ID="ID_134173283" MODIFIED="1666307100406" TEXT="mkdir frontend/src/app/component/add-{{ mi:first-lower(@name) }}">
+<node CREATED="1666306977238" ID="ID_134173283" MODIFIED="1666385342605" TEXT="mkdir frontend/src/app/components/add-{{ mi:first-lower(@name) }}">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1666307072213" ID="ID_853158002" MODIFIED="1666307104248" TEXT="mkdir frontend/src/app/component/list-{{ mi:first-lower(@name) }}">
+<node CREATED="1666307072213" ID="ID_853158002" MODIFIED="1666385345337" TEXT="mkdir frontend/src/app/components/list-{{ mi:first-lower(@name) }}">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1666307073624" ID="ID_922741216" MODIFIED="1666307106237" TEXT="mkdir frontend/src/app/component/details-{{ mi:first-lower(@name) }}">
+<node CREATED="1666307073624" ID="ID_922741216" MODIFIED="1666385353920" TEXT="mkdir frontend/src/app/components/details-{{ mi:first-lower(@name) }}">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -3101,30 +3101,30 @@
 </node>
 <node CREATED="1666227816649" ID="ID_501151834" MODIFIED="1666307823492" TEXT="geraAdd">
 <icon BUILTIN="element"/>
-<node CREATED="1666227858865" ID="ID_1322477752" MODIFIED="1666305370666" TEXT="mi g app angular addComponentHTML editorName={{ @name }}Editor &gt;  frontend/src/app/component/add-{{ mi:first-lower(@name) }}/add-{{ mi:first-lower(@name) }}.component.html">
+<node CREATED="1666227858865" ID="ID_1322477752" MODIFIED="1666385357997" TEXT="mi g app angular addComponentHTML editorName={{ @name }}Editor &gt;  frontend/src/app/components/add-{{ mi:first-lower(@name) }}/add-{{ mi:first-lower(@name) }}.component.html">
 <cloud/>
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1666228691405" ID="ID_954407407" MODIFIED="1666305401611" TEXT="mi g app angular addComponentTS editorName={{ @name }}Editor &gt;  frontend/src/app/component/add-{{ mi:first-lower(@name) }}/add-{{ mi:first-lower(@name) }}.component.ts">
+<node CREATED="1666228691405" ID="ID_954407407" MODIFIED="1666385363401" TEXT="mi g app angular addComponentTS editorName={{ @name }}Editor &gt;  frontend/src/app/components/add-{{ mi:first-lower(@name) }}/add-{{ mi:first-lower(@name) }}.component.ts">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 <node CREATED="1666227833391" ID="ID_583072007" MODIFIED="1666307822196" TEXT="geraList">
 <icon BUILTIN="element"/>
-<node CREATED="1666227862199" ID="ID_859832189" MODIFIED="1666306149975" TEXT="mi g app angular listComponentHTML listName={{ @name }}List &gt;  frontend/src/app/component/list-{{ mi:first-lower(@name) }}/list-{{ mi:first-lower(@name) }}.component.html ">
+<node CREATED="1666227862199" ID="ID_859832189" MODIFIED="1666385368452" TEXT="mi g app angular listComponentHTML listName={{ @name }}List &gt;  frontend/src/app/components/list-{{ mi:first-lower(@name) }}/list-{{ mi:first-lower(@name) }}.component.html ">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1666229135581" ID="ID_529438419" MODIFIED="1666354112266" TEXT="mi g app angular listComponentTS listName={{ @name }}List &gt;  frontend/src/app/component/list-{{ mi:first-lower(@name) }}/list-{{ mi:first-lower(@name) }}.component.ts">
+<node CREATED="1666229135581" ID="ID_529438419" MODIFIED="1666385372518" TEXT="mi g app angular listComponentTS listName={{ @name }}List &gt;  frontend/src/app/components/list-{{ mi:first-lower(@name) }}/list-{{ mi:first-lower(@name) }}.component.ts">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
 <node CREATED="1666227826099" ID="ID_1772703821" MODIFIED="1666305674800" TEXT="geraDetails">
 <icon BUILTIN="element"/>
-<node CREATED="1666227858865" ID="ID_549203557" MODIFIED="1666305642232" TEXT="mi g app angular detailsComponentHTML editorName={{ @name }}Editor &gt;  frontend/src/app/component/details-{{ mi:first-lower(@name) }}/details-{{ mi:first-lower(@name) }}.component.html">
+<node CREATED="1666227858865" ID="ID_549203557" MODIFIED="1666385376240" TEXT="mi g app angular detailsComponentHTML editorName={{ @name }}Editor &gt;  frontend/src/app/components/details-{{ mi:first-lower(@name) }}/details-{{ mi:first-lower(@name) }}.component.html">
 <cloud/>
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1666308192096" ID="ID_1823166668" MODIFIED="1666354129341" TEXT="mi g app angular detailsComponentTS editorName={{ @name }}Editor &gt;  frontend/src/app/component/details-{{ mi:first-lower(@name) }}/details-{{ mi:first-lower(@name) }}.component.ts">
+<node CREATED="1666308192096" ID="ID_1823166668" MODIFIED="1666385379766" TEXT="mi g app angular detailsComponentTS editorName={{ @name }}Editor &gt;  frontend/src/app/components/details-{{ mi:first-lower(@name) }}/details-{{ mi:first-lower(@name) }}.component.ts">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
@@ -5376,9 +5376,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1658500602776" FOLDED="true" ID="ID_1225386602" MODIFIED="1666309579174" TEXT="list">
+<node CREATED="1658500602776" ID="ID_1225386602" MODIFIED="1666386288734" TEXT="list">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1642765134032" ID="ID_1931830464" MODIFIED="1666230381075" TEXT="listComponentTS">
+<node CREATED="1642765134032" ID="ID_1931830464" MODIFIED="1666386292479" TEXT="listComponentTS">
 <icon BUILTIN="element"/>
 <node CREATED="1641817891685" ID="ID_905424789" MODIFIED="1666230485576" TEXT="parameters">
 <icon BUILTIN="element"/>
@@ -5853,7 +5853,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1642768814442" FOLDED="true" ID="ID_795531044" MODIFIED="1665771090476" TEXT="declaraSetActiveEntity">
+<node CREATED="1642768814442" ID="ID_795531044" MODIFIED="1666386304460" TEXT="declaraSetActiveEntity">
 <icon BUILTIN="element"/>
 <node CREATED="1642768827158" ID="ID_649175010" MODIFIED="1642768829970" TEXT="">
 <icon BUILTIN="tag_green"/>
@@ -7010,9 +7010,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1658500604383" FOLDED="true" ID="ID_1500156651" MODIFIED="1666309580058" TEXT="details">
+<node CREATED="1658500604383" ID="ID_1500156651" MODIFIED="1666386703908" TEXT="details">
 <icon BUILTIN="Descriptor.grouping"/>
-<node CREATED="1642422161038" ID="ID_957406446" MODIFIED="1666229897148" TEXT="detailsComponentTS">
+<node CREATED="1642422161038" ID="ID_957406446" MODIFIED="1666386706043" TEXT="detailsComponentTS">
 <icon BUILTIN="element"/>
 <node CREATED="1641817891685" ID="ID_911661603" MODIFIED="1666230377304" TEXT="parameters">
 <icon BUILTIN="element"/>
@@ -7023,7 +7023,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1642590453091" FOLDED="true" ID="ID_886694327" MODIFIED="1665771090487" TEXT="vars">
+<node CREATED="1642590453091" ID="ID_886694327" MODIFIED="1666386279737" TEXT="vars">
 <icon BUILTIN="element"/>
 <node CREATED="1638790262169" FOLDED="true" ID="ID_1453407865" MODIFIED="1665771090486" TEXT="toTypeScriptTypesDefaultValues">
 <icon BUILTIN="element"/>
@@ -7035,7 +7035,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1642422213408" FOLDED="true" ID="ID_1274421231" MODIFIED="1665771090488" TEXT="start">
+<node CREATED="1642422213408" FOLDED="true" ID="ID_1274421231" MODIFIED="1666386709758" TEXT="start">
 <icon BUILTIN="element"/>
 <node CREATED="1641817923301" FOLDED="true" ID="ID_857423117" MODIFIED="1665771090487" TEXT="match">
 <icon BUILTIN="element"/>
@@ -7191,7 +7191,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1642422420686" FOLDED="true" ID="ID_290871460" MODIFIED="1665771090490" TEXT="patterns">
+<node CREATED="1642422420686" ID="ID_290871460" MODIFIED="1666386715474" TEXT="patterns">
 <icon BUILTIN="element"/>
 <node CREATED="1642422423951" FOLDED="true" ID="ID_1794596430" MODIFIED="1665771090488" TEXT="declaraImport">
 <icon BUILTIN="element"/>
@@ -7280,7 +7280,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1642591648398" FOLDED="true" ID="ID_1019998910" MODIFIED="1665771090489" TEXT="declaraConstrutor">
+<node CREATED="1642591648398" FOLDED="true" ID="ID_1019998910" MODIFIED="1666386729202" TEXT="declaraConstrutor">
 <icon BUILTIN="element"/>
 <node CREATED="1642591948094" ID="ID_1682514842" MODIFIED="1642591951112" TEXT="">
 <icon BUILTIN="tag_green"/>
@@ -7298,7 +7298,7 @@
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1642592043381" FOLDED="true" ID="ID_1279231023" MODIFIED="1665771090489" TEXT="declaraEventoOnInit">
+<node CREATED="1642592043381" ID="ID_1279231023" MODIFIED="1666386768383" TEXT="declaraEventoOnInit">
 <icon BUILTIN="element"/>
 <node CREATED="1642592076168" ID="ID_1184833339" MODIFIED="1642592077641" TEXT="">
 <icon BUILTIN="tag_green"/>
@@ -7309,14 +7309,14 @@
 <node CREATED="1643197139576" ID="ID_1415863864" MODIFIED="1643197144511" TEXT="    this.message = &apos;&apos;;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1643197156848" ID="ID_1691392093" MODIFIED="1643197159519" TEXT="    this.getTutorial(this.route.snapshot.params.id);">
+<node CREATED="1643197156848" ID="ID_1691392093" MODIFIED="1666386859016" TEXT="    this.get{{ $editorClass/@name }}(this.route.snapshot.params[&apos;id&apos;]);">
 <icon BUILTIN="tag_green"/>
 </node>
 <node CREATED="1642592068034" ID="ID_18577292" MODIFIED="1642592073630" TEXT="  }">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>
-<node CREATED="1643197393209" FOLDED="true" ID="ID_427764518" MODIFIED="1665771090489" TEXT="declaraGetEntity">
+<node CREATED="1643197393209" ID="ID_427764518" MODIFIED="1666386846335" TEXT="declaraGetEntity">
 <icon BUILTIN="element"/>
 <node CREATED="1643197750530" ID="ID_293572788" MODIFIED="1643197752441" TEXT="">
 <icon BUILTIN="tag_green"/>
@@ -9057,7 +9057,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1665861120881" ID="ID_368291676" MODIFIED="1666229733885" TEXT="listaMenu">
+<node CREATED="1665861120881" FOLDED="true" ID="ID_368291676" MODIFIED="1666386743288" TEXT="listaMenu">
 <icon BUILTIN="element"/>
 <node CREATED="1639135985370" ID="ID_1449642127" MODIFIED="1665861046759" TEXT="start">
 <icon BUILTIN="element"/>
@@ -9091,7 +9091,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1642421714215" FOLDED="true" ID="ID_1795545709" MODIFIED="1665771090499" TEXT="write-pattern">
+<node CREATED="1642421714215" ID="ID_1795545709" MODIFIED="1666385320320" TEXT="write-pattern">
 <icon BUILTIN="element"/>
 <node CREATED="1642421719514" ID="ID_800779241" MODIFIED="1642421732381" TEXT="fimService">
 <icon BUILTIN="tag_green"/>
@@ -9240,10 +9240,10 @@
 </node>
 <node CREATED="1665858656353" ID="ID_1354335825" MODIFIED="1665858668623" TEXT="importaComponenteEditor">
 <icon BUILTIN="element"/>
-<node CREATED="1665858697861" ID="ID_1038784264" MODIFIED="1665858891908" TEXT="import { Add{{ $editorEntity/@name }}Component } from &apos;./components/add-{{ $classSnakeCase }}/add-{{ $classSnakeCase }}.component&apos;;">
+<node CREATED="1665858697861" ID="ID_1038784264" MODIFIED="1666385587140" TEXT="import { Add{{ $editorClass/@name }}Component } from &apos;./components/add-{{ $classSnakeCase }}/add-{{ $classSnakeCase }}.component&apos;;">
 <icon BUILTIN="tag_green"/>
 </node>
-<node CREATED="1665858706700" ID="ID_1324643251" MODIFIED="1665858960067" TEXT="import { Details{{ $editorEntity/@name }}Component } from &apos;./components/details-{{ $classSnakeCase }}/details-{{ $classSnakeCase }}.component&apos;; ">
+<node CREATED="1665858706700" ID="ID_1324643251" MODIFIED="1666385592500" TEXT="import { Details{{ $editorClass/@name }}Component } from &apos;./components/details-{{ $classSnakeCase }}/details-{{ $classSnakeCase }}.component&apos;; ">
 <icon BUILTIN="tag_green"/>
 </node>
 </node>

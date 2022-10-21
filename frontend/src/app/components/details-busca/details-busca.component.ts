@@ -30,7 +30,7 @@ export class DetailsBuscaComponent implements OnInit {
 
   ngOnInit(): void {
     this.message = '';
-    this.getTutorial(this.route.snapshot.params.id);
+    this.getBusca(this.route.snapshot.params['id']);
   }
 
   getBusca(id: string): void {

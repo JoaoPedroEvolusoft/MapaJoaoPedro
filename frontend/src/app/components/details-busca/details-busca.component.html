@@ -1,0 +1,133 @@
+  <div>
+    <div *ngIf="busca.id" class="edit-form">
+      <h4>Busca</h4>
+      <form>
+      <div class="form-group">
+        <label for="nome">Nome</label>
+        <input
+          type="text"
+          class="form-control"
+          id="nome"
+          required
+          [(ngModel)]="busca.nome"
+          name="nome"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="">Municipio</label>
+        <input
+          type="text"
+          class="form-control"
+          id=""
+          required
+          [(ngModel)]="busca."
+          name=""
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="categoria">Categoria</label>
+        <input
+          type="text"
+          class="form-control"
+          id="categoria"
+          required
+          [(ngModel)]="busca.categoria"
+          name="categoria"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="progressoDaBuscaPorMunicipio">Progresso da busca por municipio</label>
+        <input
+          type="text"
+          class="form-control"
+          id="progressoDaBuscaPorMunicipio"
+          required
+          [(ngModel)]="busca.progressoDaBuscaPorMunicipio"
+          name="progressoDaBuscaPorMunicipio"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="progressoDaBuscaPorCategoria">Progresso da busca por categoria</label>
+        <input
+          type="text"
+          class="form-control"
+          id="progressoDaBuscaPorCategoria"
+          required
+          [(ngModel)]="busca.progressoDaBuscaPorCategoria"
+          name="progressoDaBuscaPorCategoria"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="dataDeInicioDaBusca">Data de inicio da busca</label>
+        <input
+          type="text"
+          class="form-control"
+          id="dataDeInicioDaBusca"
+          required
+          [(ngModel)]="busca.dataDeInicioDaBusca"
+          name="dataDeInicioDaBusca"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="">Data de fim da busca</label>
+        <input
+          type="text"
+          class="form-control"
+          id=""
+          required
+          [(ngModel)]="busca."
+          name=""
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="ultimaAtualizacao">Ultima atualização</label>
+        <input
+          type="text"
+          class="form-control"
+          id="ultimaAtualizacao"
+          required
+          [(ngModel)]="busca.ultimaAtualizacao"
+          name="ultimaAtualizacao"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="">Estado</label>
+        <input
+          type="text"
+          class="form-control"
+          id=""
+          required
+          [(ngModel)]="busca."
+          name=""
+        />
+      </div>
+
+      </form>
+
+      <button class="badge badge-danger mr-2" (click)="deleteBusca()">
+        Excluir
+      </button>
+
+      <button
+        type="submit"
+        class="badge badge-success mb-2"
+        (click)="updateBusca()"
+      >
+        Gravar
+      </button>
+      <p>{{ message }}</p>
+    </div>
+
+    <div *ngIf="!busca.id">
+      <br />
+      <p>Não foi possível carregar essa entidade de Busca...</p>
+    </div>
+  </div>

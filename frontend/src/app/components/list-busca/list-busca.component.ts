@@ -10,7 +10,7 @@ import { BuscaService } from 'src/app/services/busca.service';
 export class ListBuscaComponent implements OnInit {
 
   buscaCollection?: Busca[];
-  current:  = {};
+  currentBusca: Busca = {};
   currentIndex = -1;
   debug = true;
 
@@ -34,12 +34,12 @@ export class ListBuscaComponent implements OnInit {
 
   refreshList(): void {
     this.retrieveBuscas();
-    this.current = {};
+    this.currentBusca = {};
     this.currentIndex = -1;
   }
 
-  setActive(: , index: number): void {
-    this.current = ;
+  setActiveBusca(busca: Busca, index: number): void {
+    this.currentBusca = busca;
     this.currentIndex = index;
   }
 

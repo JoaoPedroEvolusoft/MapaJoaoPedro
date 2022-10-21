@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ListBuscaComponent } from './components/list-busca/list-busca.component';
-import { AddbuscaComponent } from './components/add-busca/add-busca.component';
-import { DetailsbuscaComponent } from './components/details-busca/details-busca.component'; 
+import { AddBuscaComponent } from './components/add-busca/add-busca.component';
+import { DetailsBuscaComponent } from './components/details-busca/details-busca.component'; 
 import { ListEstabelecimentoComponent } from './components/list-estabelecimento/list-estabelecimento.component';
-import { AddestabelecimentoComponent } from './components/add-estabelecimento/add-estabelecimento.component';
-import { DetailsestabelecimentoComponent } from './components/details-estabelecimento/details-estabelecimento.component'; 
+import { AddEstabelecimentoComponent } from './components/add-estabelecimento/add-estabelecimento.component';
+import { DetailsEstabelecimentoComponent } from './components/details-estabelecimento/details-estabelecimento.component'; 
 import { ListCategoriaComponent } from './components/list-categoria/list-categoria.component';
-import { AddcategoriaComponent } from './components/add-categoria/add-categoria.component';
-import { DetailscategoriaComponent } from './components/details-categoria/details-categoria.component'; 
+import { AddCategoriaComponent } from './components/add-categoria/add-categoria.component';
+import { DetailsCategoriaComponent } from './components/details-categoria/details-categoria.component'; 
 
 
 const routes: Routes = [
